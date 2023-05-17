@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.links{
+    display: flex;
+    font-family: 'Inter', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    height: 10vh;
+    width: 80%;
+    margin: 0 auto;
+    
+    .link{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        
+        li{
+            list-style: none;
+            margin: 0 2rem;
+            cursor: pointer;
+
+            a{
+                text-decoration: none;
+                color: #000;
+
+                &:hover{
+                    color: #750404;
+                }
+            }
+        }
+    }
+    .links2{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-size: 1.2rem;
+        font-weight: 600;
+        margin: 0;
+        transition: all 0.3s ease-in-out;
+        
+        .search{
+            border: 0;
+            border-radius: 1rem;
+            padding: 0.5rem 1rem;
+            margin: 0 2rem;
+            transition: all 0.3s ease-in-out;
+            width: 12em;
+            height: 2em;
+            &:hover{
+                background-color: #750404;
+                color: #fff;
+            }
+            &:focus{
+                border: 2px solid #000;
+            }       
+        }
+
+        li{
+            list-style: none;
+            margin: 0 1.5rem;
+            cursor: pointer;    
+
+            a{
+                text-decoration: none;
+                color: #000;
+                margin: 0 2rem;
+
+                &:hover{
+                    color: #750404;
+                }
+            }
+        }
+
+        input{
+            background-image: url("/search_FILL0_wght400_GRAD0_opsz48.svg");
+            background-repeat: no-repeat;
+            background-position: 95% 50%;
+            background-size: 1.5rem; 
+        }
+    }
+
+    .profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: row;
+        font-size: 1.2rem;
+        font-weight: 600;
+        transition: all 0.3s ease-in-out;
+        
+        button{
+            font-family: 'Inter', sans-serif;
+            border-radius: 1rem;
+            border: 1px solid #000;
+            padding: 0.5rem 1rem;
+            transition: all 0.3s ease-in-out;
+            &:hover{
+                background-color: #750404;
+                color: #fff;
+            }
+            &:focus{
+                border: 2px solid #000;
+            }
+        }
+
+        .notlogged{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            font-weight: 600;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .profileIcon{
+            .icone{
+                width: 4rem;
+                height: 4rem;
+                border-radius: 50%;
+                margin: 0;
+                
+            }
+        }
+        .profileInfo{
+            margin: 0;
+            padding: 0;
+            p{
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    border-bottom: 1px solid #000;
+}
